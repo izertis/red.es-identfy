@@ -15,22 +15,24 @@
 # identfy by Izertis
 ## Table of content:
 
-- [Ecosystem](#ecosystem)
-- [User Story](#user-story)
-- [Start up the Enterprise Wallet](#)
-- [Technological overview](#technological-overview)
-- [Demostration](#how-it-works)
+- [identfy by Izertis](#identfy-by-izertis)
+  - [Table of content:](#table-of-content)
+  - [Ecosystem](#ecosystem)
+  - [User Story](#user-story)
+  - [Start up an Enterprise Wallet instance](#start-up-an-enterprise-wallet-instance)
+  - [Technological overview](#technological-overview)
+  - [How it works](#how-it-works)
 - [License](#license)
 - [Trademark](#trademark)
 
 
 ## Ecosystem
 identfy is a combination of various products that enable the user-centric solutions. identfy is an implementation of the Self-sovereig identity (SSI) approach based on the standards defined by the W3C for Verifiable Credentials (VC) and Decentralized Identifiers (DID). Based on those standars identfy implements:
-- **Holder**: we provide a non-custodial Wallet which is available at [Holder Wallet](https://github.com/izertis/identfy-holder-wallet).
+- **Holder**: we provide a non-custodial Wallet which is available at [Holder Wallet](https://github.com/izertis/red.es-identfy-holder-wallet).
 - **Issuer** and **Verifier**: both of them are entities so, we provide for them an **Enterprise Wallet** composed by the following components:
-  - [identfy Entity backend](https://github.com/izertis/identfy-entity-backend) An administration platform for managing your entity's configuration.
-  - [identfy Entity service](https://github.com/izertis/identfy-entity-service) A microservice that provides an interface for the Entity manager and executes most of the operative.
-  - [identfy OpenID library](https://github.com/izertis/identfy-OpenID-library) A library that implements OpenID protocolos: OpenID4VCI and OpenID4VP.
+  - [identfy Entity backend](https://github.com/izertis/red.es-identfy-entity-backend) An administration platform for managing your entity's configuration.
+  - [identfy Entity service](https://github.com/izertis/red.es-identfy-entity-service) A microservice that provides an interface for the Entity manager and executes most of the operative.
+  - [identfy OpenID library](https://github.com/izertis/red.es-identfy-OpenID-library) A library that implements OpenID protocolos: OpenID4VCI and OpenID4VP.
 - **Verifiable Data Registry**: we use Trusted Lists or Distributed Ledger Technology DLT / Blockchain networks.
 
 
